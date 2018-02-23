@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>PlayBrain</title>
+  <link rel="icon" href="data/imagenes/07.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/w3.css">
+</head>
+<body>
+  <br><br><br><br>
+  <div class="w3 w3-col m12">
+    <div class="w3 w3-col m3"><div style="visibility: hidden;">Espacio para div</div></div>
+    <div class="w3 w3-col m6">
+      <center>
+        <div class="panel" id="panel">
+          <h1><b>BIENVENIDO A PLAYBRAIN<b></h1>
+          <h3>Ingrese su nombre de usuario y contraseña para acceder al contenido.</h3>
+          <table>
+            <tr>
+              <td>
+                Nombre de usuario:
+              </td>
+              <td>
+                <input class="entradas" type="text" id="usuario">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Contraseña:
+              </td>
+              <td>
+                <input class="entradas" type="password" id="contrasena">
+              </td>
+            </tr>
+          </table><br>
+          <div id="alerta"></div>
+          <button type="button" class="boton" id="autenticar">Autenticar</button>
+          <button type="button" class="boton" id="ingresar" onclick="trasladar()">Continuar</button>
+        </div>
+      </center>
+    </div>
+    <div class="w3 w3-col m3"><div style="visibility: hidden;">Espacio para div</div></div>
+  </div>
+</body>
+<script src="js/logic.js"></script>
+</html>

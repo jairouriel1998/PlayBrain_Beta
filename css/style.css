@@ -1,0 +1,127 @@
+@media (max-width: 840px){
+  td{
+    display: block;
+  }
+  li{
+    display: block;
+    width: 100%;
+    margin-left: -20px;
+    margin-top: 15px;
+  }
+  .navegation{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+html{
+  background-color: rgb(30,40,50);
+}
+.panel{
+  background-color: rgb(50,50,80);
+  color: rgb(150, 250, 300);
+  font: bold 18px verdana, sans-serif;
+  text-shadow: rgb(80,80,200) 5px 5px 5px;
+  box-shadow: rgb(80, 80, 200) 5px 5px 15px 15px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.micro_panel{
+  background-color: rgb(50,50,80);
+  color: rgb(150, 250, 300);
+  box-shadow: rgb(80, 200, 80) 2px 2px 5px 5px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 4% 4% 4% 4%;
+}
+.boton{
+  color: rgb(150, 250, 300);
+  font: bold 20px verdana, sans-serif;
+  text-shadow: rgb(80,80,300) 5px 5px 5px;
+  background: rgb(50, 60, 100);
+  border-radius: 50px 50px 30px 30px;
+  padding: 15px;
+  box-shadow: rgb(80, 80, 150) 5px 5px 5px;
+}
+
+.boton:hover{
+  cursor: pointer;
+  background: rgb(80, 100, 120);
+}
+.entradas{
+  background: rgb(50, 60, 100);
+  color: rgb(150, 250, 300);
+  font: 18px verdana, sans-serif;
+  text-shadow: rgb(80,80,300) 5px 5px 5px;
+  margin: 5px;
+  border-radius: 5px 25px 25px 5px;
+  padding: 5px;
+}
+.entradas:focus{
+  background: rgb(80, 100, 120);
+}
+#ingresar{
+  display: none;
+}
+.navegation{
+  text-align: right;
+  float: right;
+  display: inline-block;
+}
+.nav_link{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  font: bold 16px verdana, sans-serif;
+  padding: 10px;
+}
+.nav_link:hover{
+  box-shadow: rgb(200, 200, 250) 0px 0px 5px 5px;
+  cursor: pointer;
+}
+.actual_link{
+  box-shadow: rgb(200, 250, 200) 0px 0px 5px 5px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  margin-right: 50px;
+}
+.text_style{
+  color: rgb(150, 250, 300);
+  text-shadow: rgb(50, 50, 100) 5px 5px 5px;
+}
+.nav_bar{
+  background-color: rgb(80, 80, 200);
+  box-shadow: rgb(80, 80, 200) 0px 10px 10px 5px;
+}
+.title_text{
+  margin-left: 50px;
+  display: inline-block;
+  font: bold 32px verdana, sans-serif;
+}
+#foot_nav{
+  margin-bottom: 20px;
+}
+#buscar{
+  padding: 5px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+#elemento_busqueda{
+  font-size: 16px;
+  width: 150px;
+  -webkit-Transition: width 0.5s ease 0.1s;
+  -moz-Transition: width 0.5s ease 0.1s;
+}
+#elemento_busqueda:hover{
+  width: 300px;
+}
+#elemento_busqueda:focus{
+  width: 300px;
+}
+.right{
+  text-align: right;
+}
